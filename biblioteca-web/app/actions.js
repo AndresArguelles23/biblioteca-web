@@ -16,6 +16,7 @@ function toTextOrNull(value) {
   return s === '' ? null : s;
 }
 
+
 function extractPayload(formData) {
   return {
     categoria: toTextOrNull(formData.get('categoria')),
